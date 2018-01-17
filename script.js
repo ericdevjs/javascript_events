@@ -1,8 +1,8 @@
-var btn = document.getElementById("enter");
-var input = document.getElementById("userinput");
-var ul = document.querySelector("ul");
-var items = document.querySelectorAll("li");
-var listContent = document.createTextNode(input.value);
+let btn = document.getElementById("enter");
+let input = document.getElementById("userinput");
+let ul = document.querySelector("ul");
+let items = document.querySelectorAll("li");
+let listContent = document.createTextNode(input.value);
 
 // TEST CODE START
 
