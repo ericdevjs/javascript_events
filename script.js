@@ -6,6 +6,10 @@ let listContent = document.createTextNode(input.value);
 
 // TEST CODE START
 
+function doNothing() {
+    console.log("I'm doing nothing");
+}
+
 function inputLength() {
     return input.value.length
 }
